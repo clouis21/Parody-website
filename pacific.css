@@ -161,8 +161,8 @@ h1 {/* Page header 1 formated to be text color white*/
 	color: #da1717;
 	float: left;
 	margin-top: -350px;
-	/* margin-left: -99px; */
-	/* border: 2px solid #ff0000; */
+	margin-left: -99px; 
+    border: 2px solid #ff0000;
 	padding-right: 30px;
 	height: 400px;
 	width:298px;
