@@ -1,4 +1,4 @@
-header, hgroup, nav, footer, figure, figcaption, aside, section, article { /*This places all the conttent ins a box it essentially generates a block element box*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 /* body {
@@ -10,10 +10,10 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article { /*Thi
 } */
 
 nav ul {
-	font-size: 1.2em; 
+	font-size: 1.2em;
 }
 nav a:visited {
-	color: #344873; 
+	color: #344873;
 }
 nav a:hover {
 	color: #FFFFFF;
@@ -37,7 +37,7 @@ dt {
 }
 
 
-/*Formated section*/
+/*chad code */
 
 /* Not working yet */
 .Marissa{
@@ -58,12 +58,14 @@ body {
 }
 
 
-#wrapper{
+#wrapper {
 	display:grid;
 	grid-template-columns: 220px 1fr;
 	background-image: url("./background.jpg") ;
 	/* height: 2100px; */
 }
+
+
 
 header {	/*html feader in block display format to display page header with image background and fading color*/
 	display:block;
@@ -87,7 +89,6 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	background-color: #90c8e3;
 	height: relative;
 	grid-row: 2 / 4;
-<<<<<<< HEAD
 	margin-left: 0px;
 	/* margin-top: -700px; */
 		
@@ -119,20 +120,6 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	/* margin-top: -666px; */
 	border-left: 20px; 
 
-=======
-	margin-left: 85px;
-}
-
-#content{ /* Page content formated to be justified right of nav bar with adjusted height, Overflow hiden keeps content from spilling over in differnt screen size*/
-	padding:20px;
-	padding-left: 40px;
-	margin-right: 85px;
-	background-color: #FFFFFF;
-	margin-left: 25px;
-	height: 565px;
-	white-space: nowwrap;
-	overflow: hidden;
->>>>>>> 0c0df145d00fb6bf632e021f14d48bae57161ac3
 }
 
 
@@ -148,7 +135,6 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	background-color: white;
 	margin-left: 25px;
 	white-space: nowwrap;
-<<<<<<< HEAD
 	/* overflow: hidden; */
 	height: 39px;
 	position:relative;
@@ -162,13 +148,10 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 
 
 } 
-=======
-	overflow: hidden;
-}
->>>>>>> 0c0df145d00fb6bf632e021f14d48bae57161ac3
 
 
 h1 {/* Page header 1 formated to be text color white*/
+
 	color: white;
 	font-size: 40px;
 }
@@ -198,14 +181,12 @@ h1 {/* Page header 1 formated to be text color white*/
 }
 h2 {
 	margin-top:0px;
-<<<<<<< HEAD
 background-color: #000032;
 	color:wheat;
-=======
-	color: #379dc7;
->>>>>>> 0c0df145d00fb6bf632e021f14d48bae57161ac3
 	margin-bottom: 20px;
 	font-size: 30px;
+	
+
 }
 
 p1{
@@ -217,7 +198,7 @@ p1{
 
 img {
 	float: left;
-	margin-right: 20px;/*Commed drifts image to the desired position*/
+	margin-right: 20px;
 }
 
 nav > ul {
@@ -258,7 +239,7 @@ nav > ul > li > a:visited {
 	color: white;
 }
 
-#content > ul { /* Page content picture formated to be in the liner pasition of content*/
+#content > ul { /* Page content picture formated to be in the iiner pasition of content*/
 	list-style-image: url('./marker.gif');
   list-style-position: inside;
 }
